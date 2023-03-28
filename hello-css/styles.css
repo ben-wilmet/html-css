@@ -23,3 +23,7 @@ ul {
 ol {
     list-style: lower-roman;
 }
+
+a {
+    text-decoration: none;
+}
