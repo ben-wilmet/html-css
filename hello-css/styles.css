@@ -1,3 +1,13 @@
 body {
-    color: #FF0000;
+    color: #414141; /* Dark grey */
+    background-color: #EEEEEE; /* Light grey */
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
 }
