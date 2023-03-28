@@ -19,11 +19,16 @@
     justify-content: space-between;
 }
 
+.signup {
+    margin-left: auto;
+}
+
+/**
 .links {
     display: flex;
     gap: 5px;
 }
-
+**/
 
 .header-container {
     color: #5995DA;
@@ -86,8 +91,4 @@
 .footer-one, .footer-three {
     background-color: #5995DA;
     width: 300px;
-}
-
-.footer-two {
-    flex: 2;
 }
