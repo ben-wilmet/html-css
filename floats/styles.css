@@ -7,6 +7,9 @@
 .page {
     width: 900px;
     margin: 0 auto;
+}
+
+.container {
     overflow: hidden;
     background-color: #EAEDF0;
 }
@@ -32,6 +35,46 @@
 
 .footer {
     clear: both;
-    height: 200px;
     background-color: #D6E9FE;
+    overflow: hidden;
+}
+
+.footer .column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;
+}
+
+.content {
+    padding: 20px;
+}
+
+.article-image {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 25px;
+    background-color: #D6E9FE;
+}
+
+.username {
+    margin-top: 25px;
+}
+
+.content {
+    margin: 10px;
+    overflow: hidden;
 }
