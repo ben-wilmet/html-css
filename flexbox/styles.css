@@ -47,9 +47,8 @@
 .photo-grid {
     width: 900px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -57,4 +56,12 @@
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+}
+
+.photo-grid-item:first-of-type {
+    order: 1;
+}
+
+.photo-grid-item:last-of-type {
+    order: -1;
 }
