@@ -67,3 +67,7 @@
 .page > p:first-of-type {
     font-style: italic;
 }
+
+#btn-3 {
+    color: #D56063;
+}
