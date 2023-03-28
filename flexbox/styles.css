@@ -24,6 +24,7 @@
     gap: 5px;
 }
 
+
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
@@ -37,6 +38,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.social,
+.subscribe {
+    align-self: flex-end;
 }
 
 .photo-grid-container {
