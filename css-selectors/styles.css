@@ -34,3 +34,16 @@
     font-style: italic;
     background-color: #EEB75A;
 }
+
+.a:visited:active {
+    color: red;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
